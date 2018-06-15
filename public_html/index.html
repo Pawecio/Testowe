@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Projekcik cosiowy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!-- MENU -->
+      <nav class="navbar navbar-inverse " role="navigation">
+        <div class="nav_box">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_scrl">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand " href="#"> Pawcio (obok zdj) </a>
+          </div>
+          <div class="collapse navbar-collapse" id="nav_scrl">
+              <ul class="nav navbar-nav">
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+        
+        <!-- CAROUSEL --> 
+      <div class="container-fluid">
+        <div class="row col-sm-12 col-md-12">    
+        <!-- CAROUSEL-INDICATORS -->   
+          <div class="carousel slide" data-ride="carousel" id="myCarousel"> 
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+          </div>
+        <!-- SLIDE-IMG --> 
+          <div class="carousel-inner">
+            <div class="item active">
+                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie">
+                <div class="carousel-caption">
+                    <h1>Creative Digital Solutions</h1>
+                    <p>Proin iaculis purus consequat sem cure.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie"> 
+                <div class="carousel-caption">
+                    <h1>Creative Digital Solutions</h1>
+                    <p>Proin iaculis purus consequat sem cure.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie">
+                <div class="carousel-caption">
+                    <h1>Creative Digital Solutions</h1>
+                    <p>Proin iaculis purus consequat sem cure.</p>
+                </div>
+            </div>
+        <!-- CAROUSEL-ARROW --> 
+            <a class="left carousel-control" href="#nav_scrl" data-slide="prev">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+                <span class="sr-only">previous</span>
+            </a>
+            <a class="right carousel-control" href="#nav_scrl" data-slide="next">
+                <span class="glyphicon glyphicon-arrow-right"></span>
+                <span class="sr-only">next</span>
+            </a>
+          </div>
+        </div>
+      </div>  
+        <div></div>
+
+        <!-- FOOTER -->
+    <footer>
+        <p>&copy; Company 2015</p>
+    </footer>
+    
+    </body>
+</html>
