@@ -9,8 +9,10 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link href='http://fonts.googleapis.com/css?family=Combo&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
     <body>
         <!-- MENU -->
@@ -37,40 +39,35 @@
       </nav>
         
         <!-- CAROUSEL --> 
-      <div class="container-fluid">
-        <div class="row col-sm-12 col-md-12">    
-        <!-- CAROUSEL-INDICATORS -->   
-          <div class="carousel slide" data-ride="carousel" id="myCarousel"> 
+      <div class="container-fluid cont_carousel">
+        <div class="row carousels col-sm-12 col-md-12">
+            <div class="text_box">
+                <h1>Creative Digital Solutions</h1>
+                <p>Proin iaculis purus consequat sem cure.</p>
+                <button class="btn btn-success">View Portfolio</button>
+            </div>
+        <!-- CAROUSEL-INDICATORS -->
+        <div class="carousel_content">
+          <div  data-ride="carousel" id="myCarousel"> 
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
           </div>
-        <!-- SLIDE-IMG --> 
+        <!-- SLIDER-IMG --> 
           <div class="carousel-inner">
             <div class="item active">
-                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie">
-                <div class="carousel-caption">
-                    <h1>Creative Digital Solutions</h1>
-                    <p>Proin iaculis purus consequat sem cure.</p>
-                </div>
+                <img class="img-responsive img_carousel" src="img/landscape.jpg" alt="ładne zjęcie">
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie"> 
-                <div class="carousel-caption">
-                    <h1>Creative Digital Solutions</h1>
-                    <p>Proin iaculis purus consequat sem cure.</p>
-                </div>
+                <img class="img-responsive img_carousel" src="img/landscape.jpg" alt="ładne zjęcie"> 
             </div>
             <div class="item">
-                <img class="img-responsive" src="img/landscape.jpg" alt="ładne zjęcie">
-                <div class="carousel-caption">
-                    <h1>Creative Digital Solutions</h1>
-                    <p>Proin iaculis purus consequat sem cure.</p>
-                </div>
+                <img class="img-responsive img_carousel" src="img/landscape.jpg" alt="ładne zjęcie">
             </div>
-        <!-- CAROUSEL-ARROW --> 
+              
+        <!-- CAROUSEL-ARROW --> <!--
             <a class="left carousel-control" href="#nav_scrl" data-slide="prev">
                 <span class="glyphicon glyphicon-arrow-left"></span>
                 <span class="sr-only">previous</span>
@@ -78,10 +75,36 @@
             <a class="right carousel-control" href="#nav_scrl" data-slide="next">
                 <span class="glyphicon glyphicon-arrow-right"></span>
                 <span class="sr-only">next</span>
-            </a>
+            </a> -->
+            </div>
           </div>
         </div>
-      </div>  
+      </div>
+    <!-- SERVICE -->    
+    <div class="container-fluid">
+        <div class="row service_tekst">
+          <h2>PROFESSIONAL SERVICE</h2>
+          <p class="text_serv">Proin iaculis purus consequat sem cure.</p>
+        </div>
+      <div class="row">
+        <div class="cont_serv col-sm-12 col-md-4">
+            <div><img class="img-responsive serv_img" src="img/Beautiful_designs.png" alt="obrazek"></div>
+            <h3>Beautiful designs</h3>
+            <p class="text_serv">Proin iaculis purus consequat ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+        </div>
+        <div class="cont_serv col-sm-12 col-md-4">
+            <div><img class="img-responsive serv_img" src="img/Responsive_web.png" alt="obrazek"></div>
+            <h3>Responsive web</h3>
+            <p class="text_serv">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+        </div>
+        <div class="cont_serv col-sm-12 col-md-4">
+            <div><img class="img-responsive serv_img" src="img/Marketing_tools.png" alt="obrazek"></div>
+            <h3>Marketing tools</h3>
+            <p class="text_serv">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora posuere odio in tincidunt.</p>
+        </div>
+      </div>
+    </div>    
+        
         
 
         <!-- FOOTER -->

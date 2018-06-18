@@ -11,6 +11,60 @@
     padding-bottom: 10px;
     /* zmienić tło i pierodły */
 }
+.navbar{
+    margin-bottom: 0px;
+}
+.text_box{
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    z-index: 3;
+}
+.cont_carousel{
+    margin: 0px;
+    padding: 0px;
+}
+.carousel_content{
+    position: relative;
+}
+.carousels{
+    margin: 0px;
+    padding: 0px;
+}
+.img_carousel{
+    width: 100%;
+}
+.service_tekst{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 70px;
+    text-align: center;
+}
+.cont_serv{
+    text-align: center;
+    padding: 20px 10px 15px 10px;
+}
+h2{
+    font-size: 40px;
+    font-family: fantasy;
+}
+h3{
+    font-size: 30px;
+    font-family: fantasy;
+}
+.text_serv{
+    font-size: 20px;
+    font-family: 'Combo', sans-serif;
+}
+.serv_img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    filter: grayscale(100%);
+}
 
 
 
