@@ -437,6 +437,9 @@ a:hover{
     filter: grayscale(100%);
     transition-duration: 1s;
 }
+.box_header{
+    color: black;
+}
 @media (max-width: 900px){
     
     .text_box {
@@ -537,5 +540,16 @@ a:hover{
     .text_box button{
         margin: 6px 0 0 0 ;
         padding: 5px;
+    }
+}
+@media (max-width: 960px){
+    #glyph_contact{
+        width: 220px;
+    }
+    #glyph_posts{
+        width: 220px;
+    }
+    #glyph_tweets{
+        width: 220px;
     }
 }
